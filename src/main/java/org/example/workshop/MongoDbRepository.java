@@ -1,4 +1,22 @@
 package org.example.workshop;
 
-public class MongoDbRepository {
+import org.example.inheritance.Animal;
+
+public class MongoDbRepository implements BaseRepository {
+    @Override
+    public void add() {
+
+    }
+
+    @Override
+    public void update() {
+
+    }
+
+    @Override
+    public void delete() {
+
+    }
+
+
 }
